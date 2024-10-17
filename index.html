@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Define que o idioma da página é português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres da página -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faz a página responsiva em dispositivos móveis -->
+    <title>Exemplo Avançado de Front-End</title> <!-- Título da aba do navegador -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS que contém os estilos da página -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Importa a fonte Roboto do Google Fonts -->
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Exemplo Avançado de Front-End!</h1> <!-- Cabeçalho principal da página -->
+    </header>
+    
+    <main>
+        <!-- Seção com uma imagem -->
+        <section>
+            <h2>Imagem</h2>
+            <img src="https://via.placeholder.com/400" alt="Exemplo de Imagem" class="rounded-image"> <!-- Imagem com um texto alternativo -->
+        </section>
+
+        <!-- Seção com um vídeo -->
+        <section>
+            <h2>Vídeo</h2>
+            <video controls class="rounded-video"> <!-- Vídeo com controles para pausar, reproduzir, etc. -->
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"> <!-- Fonte do vídeo -->
+                Seu navegador não suporta o elemento de vídeo. <!-- Mensagem caso o vídeo não carregue -->
+            </video>
+        </section>
+
+        <!-- Seção com uma caixa colorida -->
+        <section>
+            <h2>Cor de Fundo e Estilos</h2>
+            <div class="colored-box"> <!-- Caixa colorida -->
+                Esta é uma caixa colorida!
+            </div>
+        </section>
+
+        <!-- Seção com botões -->
+        <section>
+            <h2>Botões</h2>
+            <button class="primary-button">Clique Aqui</button> <!-- Botão primário -->
+            <button class="secondary-button">Outra Ação</button> <!-- Botão secundário -->
+        </section>
+
+        <!-- Seção com uma lista -->
+        <section>
+            <h2>Lista</h2>
+            <ul> <!-- Lista não ordenada -->
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </section>
+
+        <!-- Seção com uma tabela -->
+        <section>
+            <h2>Tabela</h2>
+            <table> <!-- Tabela para exibir dados -->
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Cidade</th>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>30</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>25</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Seção com um formulário -->
+        <section>
+            <h2>Formulário</h2>
+            <form> <!-- Início do formulário -->
+                <label for="name">Nome:</label> <!-- Rótulo para o campo de entrada -->
+                <input type="text" id="name" name="name" required> <!-- Campo de texto para o nome -->
+                
+                <label for="email">Email:</label> <!-- Rótulo para o campo de email -->
+                <input type="email" id="email" name="email" required> <!-- Campo de email -->
+                
+                <label for="message">Mensagem:</label> <!-- Rótulo para a área de texto -->
+                <textarea id="message" name="message" required></textarea> <!-- Área de texto para a mensagem -->
+                
+                <button type="submit" class="primary-button">Enviar</button> <!-- Botão para enviar o formulário -->
+            </form>
+        </section>
+
+        <!-- Seção com animações e efeitos de hover -->
+        <section>
+            <h2>Animações e Hover</h2>
+            <div class="hover-box"> <!-- Caixa que terá efeito ao passar o mouse -->
+                Passe o mouse aqui!
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Exemplo Avançado de Front-End</p> <!-- Rodapé da página -->
+    </footer>
+</body>
+</html>
